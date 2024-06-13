@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet">
+    <LinearLayout
+        android:id="@+id/appDev"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/bottom_sheet">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/developer_ic"
+            app:tint="@color/purple_500" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Developer"
+            android:textColor="@color/purple_500"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_sheet"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info_ic"
+            app:tint="@color/purple_500" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Privacy Info"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/purple_500"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

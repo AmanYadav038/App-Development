@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/bottomSheet"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/menu_home" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinslight"
+            android:text="Hello"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="6dp"
+            android:backgroundTint="@color/purple_500"
+            android:fontFamily="@font/poppinslight"
+            android:text="Foodie!"
+            android:textColor="@color/purple_500"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="70dp"
+            app:srcCompat="@drawable/home_assest1" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinslight"
+        android:textSize="18dp"
+        android:text="@string/which_indian_food_you_like_to_cook"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/searchview"
+        android:fontFamily="@font/poppinslight"
+        android:hint="@string/search_recipe"
+        android:inputType="none"
+        android:paddingStart="8dp"
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:drawableStart="@drawable/search"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:fontFamily="@font/popinsblack"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/salad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/category_salad"
+                    android:background="@drawable/style"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/salad"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salad"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinslight"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/maincourse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/category_main"
+                    android:background="@drawable/style"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/main"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinslight"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/drinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/catergory_drinks"
+                    android:background="@drawable/style"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/drinks"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/drinks"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinslight"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/deserts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/category_dessert"
+                    android:background="@drawable/style"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/desserts"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desserts"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinslight"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Recipe"
+        android:fontFamily="@font/popinsblack"
+        android:layout_margin="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/popularrecipeview"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>

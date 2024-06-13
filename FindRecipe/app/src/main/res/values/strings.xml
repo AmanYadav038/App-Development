@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FindRecipe</string>
+    <string name="search_recipe">Search Recipe</string>
+    <string name="which_indian_food_you_like_to_cook">Which Indian food you\nlike to cook?</string>
+    <string name="salad">salad</string>
+    <string name="main">Main</string>
+    <string name="drinks">Drinks</string>
+    <string name="desserts">Desserts</string>
+    <string name="privacy_policy">\n<u><b>Data Collection</b></u>: Check what kind of data the app collects. This may include personal information like your name, email address, or even your location.\n
+        <u><b>Third-party Sharing</b></u>: Find out if the app shares your data with third parties, such as advertisers or analytics companies.\n
+        <u><b>Data Storage</b></u>: Know where your data is stored and how it is protected. Make sure the app uses encryption to keep your information safe.\n
+        <u><b>Permissions</b></u>: Be aware of the permissions the app requires. Some apps may ask for access to your camera, microphone, or contacts, which could potentially compromise your privacy.\n
+        <u><b>Opt-out Options</b></u>: Look for options to opt out of data collection or to delete your account if you no longer want to use the app.\n
+        <u><b>Privacy Policy</b></u>: Always read the app privacy policy to understand how your data is used and protected. Make sure you are comfortable with the terms before using the app</string>
+</resources>

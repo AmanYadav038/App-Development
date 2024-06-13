@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:layout_margin="5dp"
+    android:id="@+id/item">
+        <ImageView
+            android:id="@+id/imagePopular"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pizza_sample"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/image_btm_overlay" />
+        <TextView
+            android:id="@+id/popularRecipeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample Pizza"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="10dp"/>
+        <TextView
+            android:id="@+id/popularRecipeTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🕗 XX min"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="16dp"/>
+</androidx.cardview.widget.CardView>
