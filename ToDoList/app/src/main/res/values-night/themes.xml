@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoList" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#0878B2</item>
+        <item name="colorPrimaryVariant">#0878C3</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- secondary brand color,-->
+        <item name="colorSecondary">#0878B8</item>
+        <item name="colorSecondaryVariant">#0878C3</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/yellow</item>
+
+        <item name="android:colorBackground">#0878B2</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox." parent="Base.Theme.ToDoList" >
+        <item name="colorPrimary">#0878B2</item>
+    </style>
+</resources>
